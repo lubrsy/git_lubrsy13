@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#outer {
+	width: 500px;
+	height: 333px;
+	position: relative;
+	margin: 50px auto;
+	background-color: lightskyblue;
+	padding: 10px;
+	overflow: hidden;
+}
+#imgList {
+	position: absolute;
+	list-style: none;
+	width: 2550px;
+}
+#imgList li {
+	float: left;
+	margin-right: 10px;
+}
+#navDiv {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+}
+#navDiv a {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	background-color: hotpink;
+	opacity: 0.5;
+}
+#navDiv a:hover {
+	background-color: gray;
+}
